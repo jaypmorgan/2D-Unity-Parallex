@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\script\moveBoxUp.js" />
      <Compile Include="Assets\script\movebox.js" />
  <Reference Include="TrackIRUnity">
  <HintPath>Assets\Plugins 1\TrackIRUnity.dll</HintPath>
