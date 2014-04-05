@@ -69,6 +69,7 @@ public class TrackIRCamera : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+		StartCamera ();
         if (running) {
             data = trackIRclient.client_TestTrackIRData();          // Data for debugging output, can be removed if not debugging/testing
             TrackIRClient.LPTRACKIRDATA tid = trackIRclient.client_HandleTrackIRData(); // Data for head tracking
